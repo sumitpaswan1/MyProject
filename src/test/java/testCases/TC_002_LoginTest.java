@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_002_LoginTest extends BaseClass {
 	
 	//usename and password read from properties file
-	@Test(groups= {"sanity,Master"})
+	@Test(groups = {"Sanity","Master"})
 	public void verify_Login() {
 		
 		logger.info("***starting TC_002_LoginTest ***");
